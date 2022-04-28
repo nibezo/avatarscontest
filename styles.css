@@ -19,9 +19,10 @@ h1 {
     position: fixed;
     padding: 10px;
     text-align: center;
-    color: white;
+    color: #001a35;
     background-color: #f1c500;
     border-radius: 10px;
+    border: 5px solid #003366;
 }
 .gallery {
     background-size: cover;
@@ -33,4 +34,15 @@ h1 {
 .img-container img {
     margin: 10px;
     border-radius: 10px;
+}
+figure {
+    display: inline-block;
+    margin: 20px; /* adjust as needed */
+}
+figure img {
+    vertical-align: top;
+}
+figure figcaption {
+    text-align: center;
+    font-size: larger;
 }
