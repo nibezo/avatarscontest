@@ -10,9 +10,7 @@ html {
 }
 header {
     display: flex;
-    background-image: url('https://i.gifer.com/6SZS.gif');
-    background-position: center;
-    padding: 90px;
+    padding: 80px;
     justify-content: center;
 }
 h1 {
@@ -25,24 +23,33 @@ h1 {
     border: 5px solid #003366;
 }
 .gallery {
+    margin-top: 70px;
+    margin-bottom: 80px;
     background-size: cover;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
+    font-size: larger;
 }
 .img-container img {
-    margin: 10px;
     border-radius: 10px;
+    margin: 10px;
+}
+.img-container video {
+    border-radius: 10px;
+    margin: 10px;
+}
+.img-container p {
+    text-align: center;
 }
 figure {
     display: inline-block;
-    margin: 20px; /* adjust as needed */
 }
 figure img {
     vertical-align: top;
 }
 figure figcaption {
     text-align: center;
-    font-size: larger;
 }
+
+
