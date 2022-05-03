@@ -51,5 +51,81 @@ figure img {
 figure figcaption {
     text-align: center;
 }
-
-
+@media only screen and (max-width: 1250px) {
+    header {
+        font-size: 12px;
+    }
+    .img-container figure img {
+        height: 400px;
+        width: 400px;
+    }
+    .img-container video {
+        height: 400px;
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    h1 {
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+    .img-container figure img {
+        height: 320px;
+        width: 320px;
+    }
+    .img-container video {
+        height: 320px;
+        width: 320px;
+    }
+}
+@media only screen and (max-width: 720px) {
+    header {
+        padding: 50px;
+    }
+    h1 {
+        font-size: 21px;
+    }
+    .img-container figure img {
+        height: 300px;
+        width: 300px;
+    }
+    .img-container video {
+        height: 300px;
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 660px) {
+    header {
+        padding: 45px;
+    }
+    h1 {
+        font-size: 18px;
+    }
+    .img-container figure img {
+        height: 220px;
+        width: 220px;
+    }
+    .img-container video {
+        height: 220px;
+        width: 220px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    h1 {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .img-container p {
+        font-size: 16px;
+    }    
+    .img-container figcaption {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    h1 {
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+}
